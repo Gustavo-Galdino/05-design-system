@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@voodoo-ui/eslint-config": "*",
     "@voodoo-ui/tokens": "*",
     "@voodoo-ui/ts-config": "*",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5"
@@ -25,6 +25,8 @@
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.1",
     "@radix-ui/react-checkbox": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.0.4",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   }
