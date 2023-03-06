@@ -1,0 +1,2 @@
+import{d as t}from"./index.460e94b0.js";import"./index.9592508a.js";import"./iframe.83c8b7d3.js";import"./index.8438e469.js";import"./jsx-runtime.d92ca5b8.js";const m={title:"Form/Toast",component:t,args:{title:"Title Example",description:"Description exemple....."},argTypes:{trigger:{control:{type:null}}}},p={},a=["Primary"];export{p as Primary,a as __namedExportsOrder,m as default};
+//# sourceMappingURL=Toast.stories.357e49c1.js.map

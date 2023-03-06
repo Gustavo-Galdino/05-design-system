@@ -1,0 +1,2 @@
+import{e as r,T as t}from"./index.460e94b0.js";import{j as o}from"./jsx-runtime.d92ca5b8.js";import"./index.9592508a.js";import"./iframe.83c8b7d3.js";import"./index.8438e469.js";const s={title:"Form/Tooltip",component:r,args:{trigger:o(t,{children:"Hover Here"}),content:"Example content"},argTypes:{trigger:{control:{type:null}}}},a={args:{}},l=["Primary"];export{a as Primary,l as __namedExportsOrder,s as default};
+//# sourceMappingURL=Tooltip.stories.ba6336ab.js.map

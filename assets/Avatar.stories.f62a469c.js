@@ -1,0 +1,2 @@
+import{A as t}from"./index.460e94b0.js";import"./index.9592508a.js";import"./iframe.83c8b7d3.js";import"./index.8438e469.js";import"./jsx-runtime.d92ca5b8.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/Gustavo-Galdino.png",alt:"Gustavo Galdino"},argTypes:{src:{control:{type:"text"}}}},c={},l={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,l as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.f62a469c.js.map
