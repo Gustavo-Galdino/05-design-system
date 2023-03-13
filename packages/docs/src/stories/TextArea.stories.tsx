@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Box, Text, TextArea, TextAreaProps } from '@voodoo-ui/react'
 
 export default {

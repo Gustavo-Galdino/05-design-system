@@ -1,6 +1,6 @@
 {
   "name": "@voodoo-ui/tokens",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@voodoo-ui/ts-config": "*",
     "@voodoo-ui/eslint-config": "*",
-    "tsup": "^6.6.3",
-    "typescript": "^4.9.5"
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4"
   }
 }

@@ -20,6 +20,7 @@ module.exports = {
     if (configType === 'PRODUCTION') {
       config.base = '/05-design-system/'
     }
+
     return config
   }
 }

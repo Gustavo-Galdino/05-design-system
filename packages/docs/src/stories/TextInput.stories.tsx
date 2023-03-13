@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@voodoo-ui/react'
 
 export default {
@@ -32,7 +32,7 @@ export const Disabled: StoryObj<TextInputProps> = {
   },
 }
 
-export const Withprefix: StoryObj<TextInputProps> = {
+export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
     placeholder: 'your-username',

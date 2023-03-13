@@ -1,6 +1,6 @@
-import { ArrowRight } from 'phosphor-react'
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@voodoo-ui/react'
+import { ArrowRight } from 'phosphor-react'
 
 export default {
   title: 'Form/Button',
@@ -29,9 +29,7 @@ export default {
         type: 'boolean',
       },
     },
-    onClick: {
-      action: 'click',
-    },
+    onClick: { action: 'clicked' },
   },
 } as Meta<ButtonProps>
 
@@ -61,7 +59,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Proximo passo
+        Próximo passo
         <ArrowRight weight="bold" />
       </>
     ),

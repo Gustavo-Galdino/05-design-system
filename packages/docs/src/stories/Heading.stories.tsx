@@ -1,13 +1,12 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Heading, HeadingProps } from '@voodoo-ui/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
+    children: 'Custom title',
     size: 'md',
-    children:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum eveniet, reiciendis exercitationem cum et vel necessitatibus fugit. Facilis illum necessitatibus eum dolorem. Et maiores expedita minus obcaecati quos a. Asperiores.',
   },
   argTypes: {
     size: {
@@ -30,7 +29,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`',
+          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
       },
     },
   },

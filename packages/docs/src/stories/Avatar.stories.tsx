@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Avatar, AvatarProps } from '@voodoo-ui/react'
 
 export default {
@@ -6,7 +6,7 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/Gustavo-Galdino.png',
-    alt: 'Gustavo Galdino',
+    alt: 'Diego Fernandes',
   },
   argTypes: {
     src: {

@@ -1,4 +1,4 @@
-import type { StoryObj, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@voodoo-ui/react'
 
 export default {
@@ -7,7 +7,7 @@ export default {
   args: {
     size: 'md',
     children:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum eveniet, reiciendis exercitationem cum et vel necessitatibus fugit. Facilis illum necessitatibus eum dolorem. Et maiores expedita minus obcaecati quos a. Asperiores.',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
   argTypes: {
     size: {
@@ -37,7 +37,7 @@ export const Primary: StoryObj<TextProps> = {}
 
 export const CustomTag: StoryObj<TextProps> = {
   args: {
-    children: 'Strong Text',
+    children: 'Strong text',
     as: 'strong',
   },
 }
